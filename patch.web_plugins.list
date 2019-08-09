@@ -1,0 +1,5 @@
+#<ACTION> file=>'cfg/web_plugins.list',hook=>'user'
+zillya          0       zillya          {title=>'Zillya', descr=>'Подписка на услугу антивируса Zillya'}
+
+#<ACTION> file=>'cfg/web_plugins.list',hook=>'admin'
+zillya_adm      0       zillya_adm      {title=>'Подписки Zillya', descr=>'Просмотр подписок на услугу антивируса Zillya'}
