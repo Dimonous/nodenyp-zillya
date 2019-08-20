@@ -319,8 +319,8 @@ sub end_service
                 my $product     = $lic_record->{'product'};
                 if ($product == $service->{param}{tariff})
                 {
-                    $response = nod::zillya::api_request('disable_licence', $lic_record->{'id'} );
-                    debug 'info', $response;
+                    #$response = nod::zillya::api_request('disable_licence', $lic_record->{'id'} );
+                    #debug 'info', $response;
                 }
             }
         }
